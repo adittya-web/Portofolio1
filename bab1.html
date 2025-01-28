@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seperti Kisah yang Tak Kunjung Selesai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            animation: slideDown 1.5s ease-out;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        .chapter-list {
+            list-style: none;
+            padding: 0;
+        }
+        .chapter-list li {
+            margin: 0.5rem 0;
+        }
+        .chapter-list a {
+            color: #4CAF50;
+            text-decoration: none;
+            position: relative;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .chapter-list a:hover {
+            color: #2e7d32;
+            transform: scale(1.05);
+        }
+        .chapter-list a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 0;
+            height: 2px;
+            background: #4CAF50;
+            transition: width 0.3s;
+        }
+        .chapter-list a:hover::after {
+            width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                font-size: 0.9rem;
+            }
+            .container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            .chapter-list li {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            nav {
+                padding: 1rem;
+                text-align: left;
+            }
+            .container {
+                margin: 0.5rem;
+                padding: 0.5rem;
+            }
+            header h1 {
+                font-size: 1.2rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seperti Kisah yang Tak Kunjung Selesai</h1>
+        <p>Drama Kehidupan | 30 Bab | 50.000 Kata</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="index.html#chapters">Daftar Bab</a>
+        <a href="#about">Tentang Penulis</a>
+    </nav>
+
+    <div class="container">
+        <h2 id="chapter1">Bab 1: Awal dari Segalanya</h2>
+        <p>Malam itu, hujan baru saja berhenti, menyisakan aroma tanah basah yang memenuhi udara. Langit di atas kota kecil itu diselimuti awan kelabu, hanya menyisakan beberapa bintang yang berani menampakkan diri di balik kegelapan. Jalan-jalan berlapis batu terlihat licin, memantulkan cahaya lampu jalan yang kuning dan temaram. Kota ini, yang biasa diselimuti kesunyian, terasa semakin sunyi seolah seluruh penduduknya sepakat untuk tidak mengganggu malam.</p>
+<p>Di salah satu sudut kota, berdiri sebuah rumah tua dengan taman yang dipenuhi bunga liar. Rumah itu, meskipun tampak kokoh, memiliki kesan usang. Cat dindingnya mulai mengelupas, dan suara angin yang menerpa jendela kayu menciptakan melodi sendu. Di dalam rumah itu, Andini duduk di ruang kerjanya. Matanya yang sembap memandangi tumpukan kertas di atas meja, tetapi pikirannya melayang jauh, menembus dinding ruangan.</p>
+<p>Di tangannya, ia menggenggam sebuah foto lama. Foto itu memperlihatkan seorang anak laki-laki, Reno, yang sedang tersenyum lebar di taman belakang rumah mereka. Reno memegang layang-layang biru, dan di belakangnya, langit cerah membingkai momen kebahagiaan itu. Andini menyeka air mata yang jatuh tanpa izin. Foto itu adalah salah satu kenangan terakhir yang masih ia miliki setelah Reno meninggalkannya.</p>
+<p>Kehilangan Reno adalah luka yang terlalu dalam untuk diungkapkan dengan kata-kata. Kecelakaan tragis yang merenggut nyawa anak semata wayangnya itu telah mengubah segalanya. Rumah yang dulu dipenuhi suara tawa kini menjadi tempat yang hening dan penuh dengan kesepian. Andini sering kali merasa seperti terjebak di antara dua dunia: dunia yang pernah ia kenal bersama Reno dan dunia kosong yang sekarang ia jalani.</p>
+<p>Di meja kerjanya, sebuah diary kosong tergeletak. Sampulnya berwarna cokelat tua dengan beberapa goresan di sudutnya. Itu adalah hadiah ulang tahun dari Reno, diberikan tepat seminggu sebelum kecelakaan itu terjadi. "Buatlah cerita kita, Bu," katanya dengan senyum ceria saat menyerahkan buku itu. Tetapi sejak hari itu, Andini belum pernah membuka diary tersebut. Rasanya terlalu menyakitkan untuk mengisi halaman-halaman kosongnya.</p>
+<p>Namun malam ini berbeda. Ada dorongan yang tidak biasa dalam hatinya. Mungkin karena hujan yang baru saja reda, atau mungkin karena kesunyian yang terasa begitu menekan. Dengan tangan gemetar, ia membuka halaman pertama diary itu. Aroma khas kertas baru menyeruak, mengingatkan Andini pada masa-masa ketika ia dan Reno sering menghabiskan waktu di toko buku.</p>
+<p>Pena yang sudah lama tidak ia gunakan tergenggam di tangannya. Ia menatap halaman kosong itu selama beberapa menit sebelum akhirnya mulai menulis. Kata-kata pertama yang keluar adalah nama Reno. Hanya itu, tidak lebih. Tetapi bahkan menulis nama itu saja sudah membuat air matanya kembali jatuh. Ia berhenti sejenak, menarik napas dalam-dalam, dan mencoba mengumpulkan keberanian untuk melanjutkan.</p>
+<p>“Reno,” tulisnya lagi. “Ibu rindu.”</p>
+<p>Kalimat itu terasa sederhana, tetapi bagi Andini, itu adalah beban yang telah lama ia pendam. Ia menulis dengan perlahan, menuangkan isi hatinya yang selama ini ia simpan rapat-rapat. Kata-kata itu mengalir seperti air mata, penuh dengan rasa sakit, kerinduan, dan cinta yang tak pernah pudar.</p>
+<p>Di luar, suara angin semakin kencang, membuat dedaunan di taman bergemerisik. Andini menoleh ke jendela, melihat bayangan pohon yang tampak seperti menari di bawah sinar bulan. Pemandangan itu membawanya kembali ke kenangan lama, saat ia dan Reno sering duduk di bawah pohon besar di taman. Mereka berbicara tentang banyak hal: tentang sekolah, tentang cita-cita Reno menjadi pilot, dan tentang impian mereka untuk menjelajahi dunia bersama.</p>
+<p>"Kenapa semuanya harus berubah?" gumam Andini pelan, suaranya hampir tenggelam oleh suara angin.</P
+<p>Malam semakin larut, tetapi Andini tidak berhenti menulis. Halaman-halaman di diary itu mulai terisi dengan kata-kata yang mencerminkan perasaannya. Ia menulis tentang kebahagiaan, tentang kehilangan, dan tentang bagaimana hidupnya kini terasa seperti cerita yang tidak pernah selesai. Ia tahu, tidak ada yang bisa mengembalikan Reno, tetapi menulis seolah menjadi caranya untuk tetap terhubung dengan anaknya.</p>
+<p>Ketika akhirnya ia meletakkan pena, Andini merasa sedikit lebih ringan. Diary itu, yang sebelumnya hanya menjadi benda mati, kini menjadi saksi dari perjuangannya untuk berdamai dengan masa lalu. Ia menyentuh sampulnya dengan lembut, seolah sedang menyentuh tangan Reno.</p>
+<p>“Terima kasih, Nak,” bisiknya sebelum menutup buku itu.</p>
+<p>Di luar, hujan mulai turun lagi, kali ini dengan rintik yang lembut. Seolah langit pun ikut merasakan apa yang Andini rasakan malam itu. Dan di sudut kecil kota itu, sebuah cerita baru mulai ditulis, meski terasa seperti kisah yang tak kunjung selesai.</p>
+<p>Pagi berikutnya, Andini terbangun lebih awal dari biasanya. Ia duduk di meja makan, menatap secangkir kopi hitam yang mengepul di hadapannya. Tidak ada lagi suara langkah kaki Reno yang biasanya membangunkannya, tetapi pagi ini terasa berbeda. Ada sedikit kekuatan yang ia rasakan, meski kecil, seperti embun yang perlahan menghilang saat matahari mulai bersinar.</p>
+<p>Andini mengambil diary itu lagi. Ia membawanya ke taman belakang, tempat favorit Reno. Di sana, angin pagi bertiup lembut, membawa aroma bunga liar yang bermekaran. Ia duduk di bangku tua yang sudah mulai berkarat, membuka halaman baru, dan mulai menulis lagi. Kali ini, ia tidak hanya menulis tentang Reno, tetapi juga tentang dirinya sendiri. Tentang perasaan bersalah yang terus menghantui, tentang mimpi-mimpi yang pernah ia tinggalkan, dan tentang harapan yang perlahan ingin ia bangun kembali.</p>
+<p>Di sela-sela menulis, ia melihat seekor burung kecil hinggap di cabang pohon. Burung itu berkicau dengan riangnya, seolah tidak peduli pada dunia yang penuh dengan kesedihan. Andini tersenyum kecil. Mungkin, pikirnya, hidup memang seperti itu. Ada saat untuk menangis, tetapi ada juga saat untuk bangkit dan melangkah maju.</p>
+<p>Hari-hari berikutnya, Andini mulai menjadikan menulis sebagai rutinitas. Diary itu perlahan terisi, halaman demi halaman. Setiap malam, ia menuangkan perasaannya, menceritakan kenangan-kenangan bersama Reno, dan mencoba menemukan arti baru dalam hidupnya. Menulis menjadi terapi baginya, sebuah cara untuk melepaskan rasa sakit dan menggantinya dengan sesuatu yang lebih bermakna.</p>
+<p>Tetangga-tetangga yang melihat Andini mulai keluar rumah lagi merasa lega. Mereka tahu betapa beratnya kehilangan yang ia alami, tetapi mereka juga tahu bahwa Andini adalah sosok yang kuat. Meski perlahan, ia mulai kembali berinteraksi dengan orang-orang di sekitarnya, membawa diary itu ke taman kota, dan duduk di bangku yang menghadap danau kecil. Di sana, ia menemukan kedamaian yang selama ini ia cari.</p>
+
+        <a href="index.html#chapters" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">Kembali ke Daftar Bab</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Seperti Kisah yang Tak Kunjung Selesai. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
